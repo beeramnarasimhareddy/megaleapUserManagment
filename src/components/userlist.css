@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.load{
+  color: blue;
+}
+
+.header{
+ display: flex;
+   margin: 30px;
+}
+.heading{
+  color: red;
+  margin-right: 700px;
+}
+.fullcard{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ align-items: center;
+ justify-content: center;
+ gap: 2rem;
+ margin-left: 40px;
+}
+
+
+
+.card{
+  border: 1px solid lightgreen;
+  gap: 2rem;
+  padding: 20px;
+}
+
+.but{
+  margin: 20px;
+  background-color: blue;
+}
